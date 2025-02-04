@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*, *:before, *:after {
+    font-family: "Inter", Arial, sans-serif;
+    color: #101828;
+    font-size: 15px;
+    line-height: 22px;
+}
+.container {
+    max-width: 700px;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-blur {
+    color: #666;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.header {
+    background-color: #f8a82a;
+    color: white;
+    padding: 5px 30px;
+}
+.main-content {
+    padding: 30px 30px 10px;
+}
+.header-table {
+    width: 100%;
+}
+.header-logo {
+    width: 60px;
+}
+.logo {
+    width: 60px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+.company-title {
+    margin-left: 10px;
+}
+.order-number {
+    text-align: right;
+    font-weight: bold;
+    color: #222;
+}
+.order-summary {
+    margin-bottom: 20px;
+}
+.summary-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.order-details {
+
+}
+.order-title {
+    background-color: #f9f1e7;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.order-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+.order-item.last {
+    border-bottom-width: 0;
+}
+.ot-label {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.ot-value {
+    color: #666;
+}
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.item-table th, .item-table td {
+    padding: 12px 20px;
+    text-align: left;
+}
+.bordered-col {
+    border-bottom: 1px solid #eee;
+}
+.item-table th {
+    background-color: #f9f1e7;
+    font-weight: bold;
+}
+.total-row td {
+    font-weight: bold;
+    text-align: left;
+}
+.total-row td {
+    padding: 7px 20px;
+}
+.total-row .subtotal {
+    padding-top: 20px;
+}
+.footer {
+    font-size: 13px;
+    color: #888;
+    margin-top: 40px;
+    line-height: 19px;
+}

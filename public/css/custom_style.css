@@ -1,0 +1,14 @@
+.btn-variable {
+    background-color: #ccc;
+    border-radius: 4px;
+    padding: 3px 9px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 11px;
+    margin-right: 4px;
+}
+.btn-variable:hover, .btn-variable:focus {
+    background-color: #aaa;
+    color: #eee;
+}
